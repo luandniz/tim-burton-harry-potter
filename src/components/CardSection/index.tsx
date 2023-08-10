@@ -10,7 +10,7 @@ export const CardSection = () => {
   }, []);
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-2 w-[90%] lg:w-[80%] mx-auto">
+    <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-2 w-[90%] lg:w-[90%] mx-auto">
       {chars.map((element) => (
         <Card item={element} key={element.id} />
       ))}
