@@ -19,8 +19,8 @@ export const ApresentationSection = () => {
 
   return (
     <div className="text-gray-400 font-poppins mx-auto w-[90%] lg:w-[80%] xl:w-[60%] space-y-2 mb-20">
-      <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold">
-        Tim Burton's Harry Potter{" "}
+      <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold" translate="no">
+        Tim Burton's Harry Potter
       </h1>
       <section className="leading-7 space-y-3 text-sm sm:text-base">
         <p>
