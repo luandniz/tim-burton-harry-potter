@@ -132,15 +132,15 @@ export const characters = [
     patronus: "Cervo",
   },
   {
-    id: 13,
-    name: "Remo Lupin",
-    house: "Gryffindor",
-    img_house: "https://i.ibb.co/Gcx316n/Gryffindor.png",
+    id: 19,
+    name: "Lúcio Malfoy",
+    house: "Slytherin",
+    img_house: "https://i.ibb.co/dW24M4V/Slytherin.png",
     description:
-      "Remo Lupin, um lobisomem atormentado, protege segredos noturnos e luta contra as sombras no mundo mágico gótico de Tim Burton. Sua dualidade entre a humanidade e a bestialidade adiciona profundidade à história.",
-    img_path: "remo_lupin.png",
-    blood: "Meio-sangue",
-    patronus: "Lobo",
+      "Lúcio Malfoy, comandante influente, tece intrigas e espalha sua influência sinistra no mundo das sombras sombrias de Tim Burton. Seu desejo por poder molda o destino de muitos.",
+    img_path: "lucio_malfoy.png",
+    blood: "Sangue puro",
+    patronus: "Furão",
   },
   {
     id: 14,
@@ -197,26 +197,4 @@ export const characters = [
     blood: "Sangue puro",
     patronus: "Gato",
   },
-  // {
-  //   id: 19,
-  //   name: "Lúcio Malfoy",
-  //   house: "Slytherin",
-  //   img_house: "https://i.ibb.co/dW24M4V/Slytherin.png",
-  //   description:
-  //     "Lúcio Malfoy, comandante influente, tece intrigas e espalha sua influência sinistra no mundo das sombras sombrias de Tim Burton. Seu desejo por poder molda o destino de muitos.",
-  //   img_path: "lucio_malfoy.png",
-  //   blood: "Sangue puro",
-  //   patronus: "Furão",
-  // },
-  // {
-  //   id: 20,
-  //   name: "Argo Filch",
-  //   house: "Squib",
-  //   img_house: "https://i.ibb.co/Tc9LV0C/hogwarts-logo-removebg-preview.png",
-  //   description:
-  //     "Argo Filch, zelador amargurado, ronda os cantos sombrios do castelo de Hogwarts, trazendo um toque melancólico ao mundo gótico e misterioso.",
-  //   img_path: "argo_filch.png",
-  //   blood: "Sangue puro",
-  //   patronus: "Não possui patrono",
-  // },
 ];

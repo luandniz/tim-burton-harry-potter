@@ -1,5 +1,7 @@
 import { CardSection } from "../../components/CardSection";
-import { ApresentationSection } from "../../components/Apresentation";
+import { IntroductionSection } from "../../components/Apresentation/Introduction";
+import { Footer } from "../../components/Footer";
+
 import BackgroundImage from "../../assets/images/hogwarts.webp";
 import { useChars } from "../../providers/Characters";
 
@@ -10,8 +12,9 @@ export const Home = () => {
       <main>
         <img src={BackgroundImage} alt="" className="w-full object-cover" />
       </main>
-      {!loading && <ApresentationSection />}
+      {!loading && <IntroductionSection />}
       <CardSection />
+      <Footer />
     </div>
   );
 };
