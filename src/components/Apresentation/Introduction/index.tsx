@@ -1,22 +1,4 @@
-// import { useEffect, useState } from "react";
-
 export const IntroductionSection = () => {
-  // const [scrollY, setScrollY] = useState(0);
-
-  // const handleScroll = () => {
-  //   const yOffset = window.pageYOffset;
-  //   setScrollY(yOffset);
-  // };
-
-  // useEffect(() => {
-  //   window.addEventListener("scroll", handleScroll);
-  //   console.log(scrollY);
-
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, [scrollY]);
-
   return (
     <div className="text-gray-400 font-poppins mx-auto w-[90%] lg:w-[80%] xl:w-[60%] space-y-2 mb-20">
       <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold" translate="no">

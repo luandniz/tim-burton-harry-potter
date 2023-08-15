@@ -38,11 +38,9 @@ export const Card = ({ item }: ICardProps) => {
                 alt={item.house}
                 className="w-32 h-32"
               />
-
               <h1 className="text-xl md:text-2xl lg:text-3xl  font-bold">
                 {item.name}
               </h1>
-
               <p className="text-xs xs:text-sm sm:text-base">
                 {item.description}
               </p>
